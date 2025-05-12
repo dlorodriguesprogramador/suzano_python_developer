@@ -1,0 +1,56 @@
+Metadata-Version: 2.2
+Name: image_processing
+Version: 0.0.1
+Summary: Image Processing Package using skimage
+Home-page: https://github.com/RaianeBatista/image-processing-package
+Author: Raiane_Batista
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+
+
+Ativa o ambiente virtual do Python no windowns:  
+No terminal do VS Code, execute os seguintes comandos:
+2. **Criar o ambiente virtual e ativÃ¡-lo:**
+````  
+python -m venv .env
+.\.env\Scripts\activate
+````
+# image_processing
+Description. The package package_name is used to:
+  
+    Processing: 
+        - Histograma matching  
+        - Structural similarity  
+        - Resize image
+    Utils:  
+        - Read image  
+        - Save image  
+        - Plot image
+        - Plot result  
+        - Plot histogram
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install image_processing
+```
+
+## Author
+Raiane Batista
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
